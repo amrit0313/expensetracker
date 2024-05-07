@@ -1,0 +1,32 @@
+.expense-items {
+  display: flex;
+  padding: 0.5rem;
+  margin: 1rem 1rem;
+  background-color: #4f4e4e;
+  max-width: 90%;
+}
+
+.expense-items_description {
+  display: flex;
+  padding: 0px 50px;
+  color: rgb(255, 255, 255);
+}
+
+@media (min-width: 580px) {
+  .expense-items_description {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+  }
+}
+
+.expense-items_description h2 {
+  font-size: 1.25rem;
+}
+
+.expense-items_price {
+  font-size: 1.25rem;
+  padding: 0.5rem 1.5rem;
+  color: aliceblue;
+}

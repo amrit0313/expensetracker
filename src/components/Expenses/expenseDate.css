@@ -1,0 +1,12 @@
+.box {
+  background-color: rgb(17, 18, 56);
+  margin: 4px 10px;
+  padding: 10px;
+  color: white;
+  border-radius: 12px;
+  border: 3px solid whitesmoke;
+}
+
+.month_date {
+  color: rgb(188, 177, 48);
+}
