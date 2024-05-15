@@ -1,0 +1,22 @@
+.expenses-filter {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+align-items: center;
+  max-width: 90%;
+ padding: 1rem 3rem;
+    border-radius: 12px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+.filterSelect{
+  background-color: #ffffff;
+  color: rgb(98, 94, 94);
+  border: none;
+  padding: 0.5rem 1rem;
+  font: inherit;
+  border-radius: 12px;
+  margin-left: 1rem;
+}
+
