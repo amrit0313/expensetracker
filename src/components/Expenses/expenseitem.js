@@ -8,7 +8,6 @@ const Expenseitem = (props) => {
 
   const clickHandler = () => {
     setTitle("updated!!!");
-    console.log("clicked !!!!"); // this isn't necessary
   };
 
   return (
