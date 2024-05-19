@@ -25,7 +25,7 @@ const Expenses = (props) => {
     {/* { {filteredExpenses.length === 0 ? (<p>No data found</p> ): (filteredExpenses.map(expenses => <Expenseitem key={expenses.id} title = {expenses.title} amount= {expenses.amount} date = {expenses.date} /> ))} }
       */}
 
-      { filteredExpenses.length ===0 && <p>No data found</p>}
+      { filteredExpenses.length ===0 && <p style={{color: "white"}}>No data found</p>}
 
       {filteredExpenses.length > 0 && filteredExpenses.map(expenses => 
       (<Expenseitem 
